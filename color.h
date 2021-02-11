@@ -18,7 +18,7 @@ void mover();
 int x = 0, y = 0, tecla;
 int textox, textoy, fondox, fondoy;
 
-int main()
+void color()
 {   
     char res;
       
@@ -1507,8 +1507,6 @@ int main()
             }
         break;
     }
-
-    return 0;
 }
 
 void menuTexto()
